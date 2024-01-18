@@ -23,24 +23,24 @@ const Header = () => {
             </div>
             <div className="">
               {smallScreen && (
-                <div className="ham-inside bg-black mt-2.5 m-auto text-center w-screen text-2xl">
-                  <input type="text" placeholder="Search CNN..." className="search-input m-auto p-2 text-[20px] bg-white w-[200%]"/>
+                <div className="ham-inside">
+                  <input type="text" placeholder="Search CNN..." className="search-input"/>
                   <div className="col-2">
-                  <h1>Edition</h1>
-                  <h1>World</h1>
-                  <h1>US Politics</h1>
-                  <h1>Business</h1>
-                  <h1>Market</h1>
-                  <h1>Health</h1>
-                  <h1>Entertainment</h1>
-                  <h1>Tech</h1>
-                  <h1>Style</h1>
-                  <h1>Travel</h1>
-                  <h1>Sports</h1>
-                  <h1>Watch</h1>
-                  <h1>Features</h1>
-                  <h1>Weather</h1>
-                  <h1>More</h1>
+                  <p onClick={() => setIsMenuToggled(!isMenuToggled)}>Edition</p>
+                  <p>World</p>
+                  <p>US Politics</p>
+                  <p>Business</p>
+                  <p>Market</p>
+                  <p>Health</p>
+                  <p>Entertainment</p>
+                  <p>Tech</p>
+                  <p>Style</p>
+                  <p>Travel</p>
+                  <p>Sports</p>
+                  <p>Watch</p>
+                  <p>Features</p>
+                  <p>Weather</p>
+                  <p>More</p>
                   </div>
                 </div>
               )}
@@ -75,7 +75,7 @@ const Header = () => {
       <div className="header-left bg-black text-white w-max flex gap-6 font-sans font-normal mr-7">
         <div className="navs cursor-pointer">Watch</div>
         <div className="navs cursor-pointer">Listen</div>
-        <div className="navs cursor-pointer">Live TV</div>
+        <div style={{whiteSpace: "nowrap"}} className="navs cursor-pointer">Live TV</div>
         {!smallScreen && (
           <div className="search-icon-div">
         <img src="/ssss.png" alt="search_icon" width={"28px"} height={"28px"} className="search-icon"/>
