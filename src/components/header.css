@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+.header-container {
+  background-color: black;
+  gap: 24px;
+  justify-content: space-between;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  align-items: flex-start;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.header-con2 {
+  background-color: black;
+  color: white;
+  gap: 24px;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 28px;
+  font-weight: 400;
+}
+
+.menu-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.x-icon {
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.ham-inside {
+  background-color: black;
+  margin-top: 10px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.search-input {
+  margin: 0 auto;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.bar-icon {
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.logo-div {
+  width: 32px;
+  height: 32px;
+}
+
+.cnn-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.navs {
+  cursor: pointer;
+}
+
+.header-left {
+  background-color: black;
+  color: white;
+  width: max-content;
+  display: flex;
+  gap: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  margin-right: 28px;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.log-in {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 4px;
+  font-weight: 700;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.log-in:hover {
+  opacity: 1;
+  background-color: rgb(187, 183, 183);
+}
