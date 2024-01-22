@@ -5,7 +5,7 @@ import '@/components/header.css'
 const Header = () => {
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
   const isAboveMediumScreens = useMediaQuery("(min-width: 959px)");
-  const smallScreen = useMediaQuery("(max-width: 959px)")
+
 
 
   return (
@@ -22,7 +22,7 @@ const Header = () => {
               <XMarkIcon className="x-icon object-cover cursor-pointer"/>
             </div>
             <div className="">
-              {smallScreen && (
+              {!isAboveMediumScreens ? (
                 <div className="ham-inside">
                   <input type="text" placeholder="Search CNN..." className="search-input"/>
                   <div className="col-2">
@@ -43,6 +43,10 @@ const Header = () => {
                   <p>More</p>
                   </div>
                 </div>
+              ) : (
+                <>
+                <div style={{backgroundColor: "black", width: "fit-content"}}>HElloooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo</div>
+                </>
               )}
             </div>
             </>
@@ -53,7 +57,7 @@ const Header = () => {
         <div className="logo-div w-8 h-8">
           <img src="/cnn.jpg" alt="cnn-logo" className="cnn-logo fit object-cover cursor-pointer" />
         </div>
-        {isAboveMediumScreens ? (
+        {isAboveMediumScreens && (
           <>
           <div className="navs cursor-pointer">US</div>
         <div className="navs cursor-pointer">World</div>
@@ -66,8 +70,6 @@ const Header = () => {
         <div className="navs cursor-pointer">Travel</div>
         <div className="navs cursor-pointer">Sports</div>
         </>
-        ) : (
-          ""
         )}
         
       </div>
@@ -76,7 +78,7 @@ const Header = () => {
         <div className="navs cursor-pointer">Watch</div>
         <div className="navs cursor-pointer">Listen</div>
         <div style={{whiteSpace: "nowrap"}} className="navs cursor-pointer">Live TV</div>
-        {!smallScreen && (
+        {!isAboveMediumScreens && (
           <div className="search-icon-div">
         <img src="/ssss.png" alt="search_icon" width={"28px"} height={"28px"} className="search-icon"/>
         </div>
