@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Inner from "./components/Inner"
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Inner />
+      <Footer />
     </>
   )
 }
