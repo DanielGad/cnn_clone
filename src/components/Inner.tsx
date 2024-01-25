@@ -1,13 +1,9 @@
 import '@/components/inner.css';
-import useMediaQuery from '@/hooks/useMediaQuery';
-
 
 const Inner = () => {
-  const isAboveMediumScreens = useMediaQuery("(min-width: 959px)");
   return (
     <div>
       
-      {isAboveMediumScreens ? (
         <>
         <div className='link'>
         <span className="blogs">Israel-Hamas war </span> <span className="or-sym"> <tbody></tbody> | <tbody></tbody></span> <span className="blogs">Donald Trump</span> <span className="or-sym"><tbody></tbody> | <tbody></tbody></span> <span className="blogs">North Korean's Kim</span> <span className="or-sym"><tbody></tbody> | <tbody></tbody></span> <span className="blogs">Climate 'new denial'</span> <span className="or-sym"><tbody></tbody> | <tbody></tbody></span> <span className="blogs">Netflix remove Indian movie</span> <span className='or-sym'> <tbody></tbody> |  <tbody></tbody></span> <span className="blogs">Phillipines' jeepneys</span> <span className="or-sym"><tbody></tbody> | <tbody></tbody></span> <span className="blogs"><tbody></tbody>2023 Emmy Awards</span> <span className="or-sym"><tbody></tbody> | <tbody></tbody></span> <span className="blogs">Australian Open</span>
@@ -66,33 +62,33 @@ const Inner = () => {
             <h5 className='mini'>FEATURED</h5>
             <img src="/img6.jpg" alt="image 6" className="image-3" width={"100%"}/>
             <h2 className='heading-2-1' style={{marginTop: "10px"}}>World’s best city for 2024 revealed</h2>
-            <div className='semi-column'>
-              <div style={{objectFit: "cover"}}><img src="/img7.jpg" alt="image 7" className="image-3" width={"100%"} height={"70px"}/></div>
+            <div className='semi-column-1'>
+              <div style={{objectFit: "cover"}}><img src="/img7.jpg" alt="image 7" className="image-3" width={"100%"} /></div>
               <div className='semi-1'>More flowers are ‘selfing,’ scientists say. That could spell trouble for other species</div>
             </div>
-            <div className='semi-column'>
-              <div style={{objectFit: "cover"}}><img src="/img8.jpg" alt="image 8" className="image-3" width={"100%"} height={"70px"}/></div>
+            <div className='semi-column-1'>
+              <div style={{objectFit: "cover"}}><img src="/img8.jpg" alt="image 8" className="image-3" width={"100%"} /></div>
               <div className='semi-1'>These Japanese beef croquettes are so popular there’s a 43-year waitlist</div>
             </div>
           </div>
           
           <div className='column-3-1'>
-            <img src="img4.jpg" alt="image" width={"100%"} style={{margin: "50px 0px"}}/>
-            <div className='semi-column-1'>
-              <div style={{objectFit: "cover"}}><img src="/img9.jpg" alt="image 9" className="image-3" width={"100%"} height={"70px"}/></div>
-              <div className='semi-1' style={{width: "80%"}}>Navigating ‘male menopause’ for a healthier life</div>
+            <img src="/G.jpg" alt="image" width={"50%"} style={{padding: "70px", margin: "0", cursor: 'pointer'}} />
+            <div className='semi-column'>
+              <div style={{objectFit: "cover"}}><img src="/img9.jpg" alt="image 9" className="image-3" width={"100%"} /></div>
+              <div className='semi-1' style={{width: "100%"}}>Navigating ‘male menopause’ for a healthier life</div>
             </div>
-            <div className='semi-column-1'>
-              <div style={{objectFit: "cover"}}><img src="/img10.jpg" alt="image 10" className='image-3' width={"100%"} height={"70px"}/></div>
-              <div className='semi-1' style={{width: "80%"}}>Billy Joel is releasing his first single in 17 years</div>
+            <div className='semi-column'>
+              <div style={{objectFit: "cover"}}><img src="/img10.jpg" alt="image 10" className='image-3' width={"100%"} /></div>
+              <div className='semi-1' style={{width: "100%"}}>Billy Joel is releasing his first single in 17 years</div>
             </div>
-            <div className='semi-column-1'>
-              <div style={{objectFit: "cover"}}><img src="/img11.jpg" alt="image 11" className='image-3' width={"100%"} height={"70px"}/></div>
-              <div className='semi-1' style={{width: "80%"}}>Novak Djokovic defeats Taylor Fritz to reach 11th Australian Open semifinal</div>
+            <div className='semi-column'>
+              <div style={{objectFit: "cover"}}><img src="/img11.jpg" alt="image 11" className='image-3' width={"100%"} /></div>
+              <div className='semi-1' style={{width: "100%"}}>Novak Djokovic defeats Taylor Fritz to reach 11th Australian Open semifinal</div>
             </div>
-            <div className='semi-column-1'>
-              <div style={{objectFit: "cover"}}><img src="/img12.jpeg" alt="image 12" className='image-3' width={"100%"} height={"70px"}/></div>
-              <div className='semi-1' style={{width: "80%"}}>Fire truck spins out of control on icy road. See what happens next</div>
+            <div className='semi-column'>
+              <div style={{objectFit: "cover"}}><img src="/img12.jpeg" alt="image 12" className='image-3' width={"100%"} /></div>
+              <div className='semi-1' style={{width: "100%"}}>Fire truck spins out of control on icy road. See what happens next</div>
             </div>
           </div>
         </div>
@@ -101,29 +97,29 @@ const Inner = () => {
           <div className='column-1-1'>
               <img src="/img13.jpg" alt="image 13" className="image-3" width={"100%"}/>
               <h2 className='heading-1-1'>British zoo has new plan to rehabilitate its potty-mouthed parrots</h2>
-              <div className='semi-column-1'>
-                <div style={{objectFit: "cover"}}><img src="/img16.jpg" alt="image 16" className="image-3" width={"100%"} height={"70px"}/></div>
-                <div className='semi-1' style={{width: "80%"}}>Three dead as 7.1 earthquake strikes near China’s border with Kyrgyzstan</div>
+              <div className='semi-column'>
+                <div style={{objectFit: "cover"}}><img src="/img16.jpg" alt="image 16" className="image-3" width={"100%"} /></div>
+                <div className='semi-1' style={{width: "100%"}}>Three dead as 7.1 earthquake strikes near China’s border with Kyrgyzstan</div>
               </div>
-              <div className='semi-column-1'>
-                <div style={{objectFit: "cover"}}><img src="/img17.jpg" alt="image 17" className='image-3' width={"100%"} height={"70px"}/></div>
-                <div className='semi-1' style={{width: "80%"}}>Pope Francis takes on vested interests to speak out on humanitarian crises</div>
+              <div className='semi-column'>
+                <div style={{objectFit: "cover"}}><img src="/img17.jpg" alt="image 17" className='image-3' width={"100%"} /></div>
+                <div className='semi-1' style={{width: "100%"}}>Pope Francis takes on vested interests to speak out on humanitarian crises</div>
               </div>
-              <div className='semi-column-1'>
-                <div style={{objectFit: "cover"}}><img src="/img18.jpg" alt="image 18" className='image-3' width={"100%"} height={"70px"}/></div>
-                <div className='semi-1' style={{width: "80%"}}>Gigi Riva, Italy’s all-time leading scorer, dies aged 79</div>
+              <div className='semi-column'>
+                <div style={{objectFit: "cover"}}><img src="/img18.jpg" alt="image 18" className='image-3' width={"100%"} /></div>
+                <div className='semi-1' style={{width: "100%"}}>Gigi Riva, Italy’s all-time leading scorer, dies aged 79</div>
               </div>
             </div>
 
           <div className='column-2-1'>
             <img src="/img14.jpg" alt="image 14" className="image-3" width={"100%"}/>
             <h2 className='heading-2-1' style={{marginTop: "10px"}}>Cowboys, college grads and comfy shoes: What we saw at the men’s shows in Paris</h2>
-            <div className='semi-column'>
-              <div style={{objectFit: "cover"}}><img src="/img19.jpg" alt="image 19" className="image-3" width={"100%"} height={"70px"}/></div>
+            <div className='semi-column-1'>
+              <div style={{objectFit: "cover"}}><img src="/img19.jpg" alt="image 19" className="image-3" width={"100%"} /></div>
               <div className='semi-1'>This US couple bought a home in the ‘forgotten region’ of Italy. Here’s what happened next</div>
             </div>
-            <div className='semi-column'>
-              <div style={{objectFit: "cover"}}><img src="/img20.jpg" alt="image 20" className="image-3" width={"100%"} height={"70px"}/></div>
+            <div className='semi-column-1'>
+              <div style={{objectFit: "cover"}}><img src="/img20.jpg" alt="image 20" className="image-3" width={"100%"} /></div>
               <div className='semi-1'>See vintage photos of a long-forgotten Ghana</div>
             </div>
           </div>
@@ -131,17 +127,17 @@ const Inner = () => {
           <div className='column-1-1'>
             <img src="/img15.jpg" alt="image 15" className="image-3" width={"100%"}/>
             <h2 className='heading-1-1'>Man arrested again outside Taylor Swift’s townhouse less than 48 hours after prior arrest there</h2>
-            <div className='semi-column-1'>
-              <div style={{objectFit: "cover"}}><img src="/img21.jpg" alt="image 21" className="image-3" width={"100%"} height={"70px"}/></div>
-              <div className='semi-1' style={{width: "80%"}}>Female golfers take part in The Match for the first time in historic edition</div>
+            <div className='semi-column'>
+              <div style={{objectFit: "cover"}}><img src="/img21.jpg" alt="image 21" className="image-3" width={"100%"} /></div>
+              <div className='semi-1' style={{width: "100%"}}>Female golfers take part in The Match for the first time in historic edition</div>
             </div>
-            <div className='semi-column-1'>
-              <div style={{objectFit: "cover"}}><img src="/img22.jpg" alt="image 22" className='image-3' width={"100%"} height={"70px"}/></div>
-              <div className='semi-1' style={{width: "80%"}}>Italian soccer team Udinese to play match behind closed doors after alleged racist abuse from fans</div>
+            <div className='semi-column'>
+              <div style={{objectFit: "cover"}}><img src="/img22.jpg" alt="image 22" className='image-3' width={"100%"} /></div>
+              <div className='semi-1' style={{width: "100%"}}>Italian soccer team Udinese to play match behind closed doors after alleged racist abuse from fans</div>
             </div>
-            <div className='semi-column-1'>
-              <div style={{objectFit: "cover"}}><img src="/img23.jpg" alt="image 23" className='image-3' width={"100%"} height={"70px"}/></div>
-              <div className='semi-1' style={{width: "80%"}}>‘Has to be a prank’: See how family wound up with 200 McNuggets</div>
+            <div className='semi-column'>
+              <div style={{objectFit: "cover"}}><img src="/img23.jpg" alt="image 23" className='image-3' width={"100%"} /></div>
+              <div className='semi-1' style={{width: "100%"}}>‘Has to be a prank’: See how family wound up with 200 McNuggets</div>
             </div>
           </div>
         </div>
@@ -277,16 +273,16 @@ const Inner = () => {
             </div>
           </div>
           
-          <div>
+          <div className='last'>
             <img src="/konga.png" alt="konga image" width={"100%"} style={{marginTop: "20px", cursor: "pointer"}}/>
           </div>
         </div>
 
       </div>
       </>
-      ) : (
+      {/* ) : (
         ""
-      )}
+      )} */}
       
     </div>
   )

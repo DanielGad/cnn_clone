@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .header-container {
@@ -17,6 +17,7 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .header-con2 {
@@ -114,3 +115,8 @@ body {
   opacity: 1;
   background-color: rgb(187, 183, 183);
 }
+
+.inside-menu {
+  background-color: black;
+}
+
